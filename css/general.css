@@ -156,10 +156,14 @@ strong {
   letter-spacing: 0.75px;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
+.btn,
 .btn:visited,
 .btn:link {
-  color: #fff;
-  background-color: #e67e22;
   font-weight: 600;
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
@@ -167,11 +171,14 @@ strong {
   border-radius: 9px;
   /* Put transition on original "states" */
   transition: all 0.3s;
+  border: none;
+  cursor: pointer;
 }
 
 .btn--full:link,
-.btn--full:link {
+.btn--full:visited {
   background-color: #e67e22;
+  color: #fdf2e9;
 }
 
 .btn--full:hover,
