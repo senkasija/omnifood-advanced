@@ -107,6 +107,7 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 10;
   }
   .main-nav {
     background-color: #fff;
